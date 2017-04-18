@@ -31,8 +31,7 @@ page.
 ### Goals with this page
 My main goal was to promote and persuade the use of RWD. The primary content is in the main-container
 div and includes the video and infographic. The secondary content are my own text definitions. I
-believe the first content users should see is my text. After understanding what I believe the
-benefits are of RWD I provide other examples and resources for more learning.
+believe the first content users should see on mobile is my text due to images and videos being too small. On larger screens the video and infographic come first due to being more visually appealing.
 
 ### Going Forward
 Flexbox really makes it easier. I can finally center a div both vertically and horizontall
