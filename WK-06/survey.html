@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 6 HW</title>
+
+
+</head>
+
+<body background="./res/bgimage.jpg" style="color:white;">
+  <h1> Mars Colonization Survey</h1>
+  <form>
+    <fieldset>
+      <legend> Introduction </legend>
+      <label for="nameText">Name:</label>
+      <input type="text" name="nameText"><br>
+      <label for="emailText">Email:</label>
+      <input type="text" name="emailText"><br>
+      <label for="gender">Gender:</label>
+      <select name="gender">
+        <option value="undisclosed">Undisclosed</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+
+      </select>
+    </fieldset>
+
+      <fieldset>
+                <legend>Which of the following skills do you possess? (Check all that apply)</legend>
+                        <input type="checkbox" name="skills[]" value="Engineering" />Engineering <br />
+                        <input type="checkbox" name="skills[]" value="Military" />Military<br />
+                        <input type="checkbox" name="skills[]" value="Aircraft" />Aircraft Flying<br />
+                        <input type="checkbox" name="skills[]" value="Botany" />Botany<br />
+                        <input type="checkbox" name="skills[]" value="Mechanic" />Mechanic<br />
+                        <input type="checkbox" name="skills[]" value="Geology" />Geology<br />
+                        <input type="checkbox" name="skills[]" value="Medical" />Medical Doctor<br />
+        </fieldset>
+        <fieldset>
+          <label for="crime[]">Have you ever been convicted of a felony?:</label><br/>
+          <input type="radio" name="crime[]" value="Yes" />Yes <br />
+          <input type="radio" name="crime[]" value="No" />No <br />
+
+          <label for="whyChoose">Tell us why you should be chosen for the Mars Colonization trip:</label><br/>
+          <textarea rows="4" cols="50" name="whyChoose">
+          </textarea>
+        </fieldset>
+
+  </form>
+
+</body>
