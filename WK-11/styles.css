@@ -20,7 +20,10 @@ body{
    transform-origin-x: 100%;
 
 }
+.parallaxLayer_front {
+  transform: translateZ(1);
 
+}
 .parallaxLayer_base {
   transform: translateZ(0);
 
@@ -30,7 +33,7 @@ body{
 }
 .parallaxLayer_deep {
   transform: translateZ(-2px) scale(3) ;
-  
+
 }
 
 .parallaxGroup {
@@ -38,7 +41,7 @@ body{
   height: 100vh;
   transform-style: preserve-3d;
 }
-#batman_bg{
+.bg{
   width: 100%;
 
 
@@ -57,4 +60,11 @@ body{
 }
 .content p{
   font-size: 1.5em;
+}
+
+ li{
+  list-style: none;
+  width: 350px;
+  margin: auto;
+  text-align: left;
 }
