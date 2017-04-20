@@ -21,7 +21,7 @@ I will never not use flexbox when designing layouts again. Finally CSS makes a l
 more sense.
 
 ### Color palette
-I chose my color palette using guidelines from Google's Material Design. I chose blue gray and deep purple from (Material.io)[https://www.materialpalette.com/blue-grey/deep-purple]
+I chose my color palette using guidelines from Google's Material Design. I chose blue gray and deep purple from (Material Pallette)[https://www.materialpalette.com/blue-grey/deep-purple]
 
 ### Typography
 I chose a font from Google Fonts and imported it in my CSS. I chose Open Sans because
@@ -34,5 +34,5 @@ div and includes the video and infographic. The secondary content are my own tex
 believe the first content users should see on mobile is my text due to images and videos being too small. On larger screens the video and infographic come first due to being more visually appealing.
 
 ### Going Forward
-Flexbox really makes it easier. I can finally center a div both vertically and horizontall
+Flexbox really makes it easier. I can finally center a div both vertically and horizontally
 within another. I will be using flexbox from now on as much as possible.
