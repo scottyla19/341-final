@@ -68,3 +68,26 @@ body{
   margin: auto;
   text-align: left;
 }
+@media (max-width:1000px){
+  .parallax{
+    perspective: none;
+    overflow-y: scroll;
+  }
+  .parallaxLayer{
+    position: relative;
+  }
+  .parallaxLayer_base {
+    transform: translateZ(0);
+
+  }
+  .parallaxLayer_back {
+    transform: translateZ(0) ;
+  }
+  .parallaxLayer_deep {
+    transform: translateZ(0) ;
+
+  }
+  .parallaxGroup{
+    height: auto;
+  }
+}
