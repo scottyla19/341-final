@@ -1,0 +1,122 @@
+body{
+  margin:0;
+}
+.menuBar{
+  /*overflow: hidden;*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: rgba(120, 144, 156, 0.75);
+  color:white;
+
+  font-size: 2.5em;
+
+
+}
+.menuBarContainer{
+
+  display: flex;
+  justify-content: center;
+
+}
+#title{
+  margin-left:auto;
+  color:white;
+
+
+}
+#logo{
+  margin-left:auto;
+  margin-right: 6px;
+  margin-top: 5px;
+
+}
+.homeContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+
+}
+.contentLogo{
+  width: 50%;
+  height: 50%;
+  margin: 0;
+
+}
+.homePageMainContainer{
+  /*padding-top: 50px;*/
+
+}
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    color:white;
+
+}
+
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0 5px 5px 5px;
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    border-radius: 10% 10%;
+
+    visibility: hidden;
+    transition: visibility 0.5s;
+    background-color: #78909c;
+}
+.onclick-menu-content a{
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.onclick-menu-content li{
+  font-size: .5em;
+  list-style: none;
+  padding: 2px;
+  width: 100%;
+  display: block;
+
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: #78909c;
+  opacity: .5
+  color:white;
+}
+.footer div{
+  color: white;
+}
+.footer div i{
+  width: 25px;
+}
+.bg2{
+  display: inline;
+  width: 49%;
+  height: 120px;
+}
+.bg{
+  max-width: 100%;
+  height: auto;
+}

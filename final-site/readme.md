@@ -9,7 +9,7 @@
 5. Program responsiveness for desktop especially parallax home page.
 6. Improve desktop form and function.
 7. Test on Firefox, Safari, and Chrome for desktop.
-8. Safari and Chrome on mobile.
+8. Test Safari and Chrome on mobile.
 
 ### Site Topic:
 I chose to develop my site for the final as a hypothetical, possibly realistic, business
@@ -20,10 +20,12 @@ hobbies. The name of this venture will be called, for now, Sentinel Studios.
 ![alt text](./img/sentinel-gb.png "Sentinel Studios Logo")
 
 The site itself will have four main sections including home, services, about, and
-contact pages.
+contact pages. The color palette again follows the Material Design palette using simple colors
+with primary blue as well as dark primary blue mixed with green accents. The font and overall
+design will be minimalist and non-distracting.
 
 ### Wireframe Mockups
-Originally I thought about designing for three different screen sizes of phone, table,
+Originally I thought about designing for three different screen sizes of phone, tablet,
 and desktop. However after going through the design process for the phone and tablet I
 didn't see much of a difference so I narrowed it down to two very different designs.
 
@@ -47,7 +49,9 @@ provided below.
 ![alt text](./img/desktopContact.png "Desktop Contact Mockup")
 
 ### Develop Mobile Layout
-TODO
+- The first problem that I ran into was getting the menu bar to align correctly. I wanted the menu bars
+icon to be left aligned, the title centered, and the logo right aligned. I ended up using flex box
+with `justify-content: center` and the title and logos with `margin-left: auto`. This provided the look I wanted and formed the basis for my responsive design.
 
 ### Test and Refine Mobile Layout
 TODO
@@ -59,4 +63,4 @@ TODO
 TODO
 
 ### Test on Various Browsers and Finalize Website
-TODO 
+TODO
