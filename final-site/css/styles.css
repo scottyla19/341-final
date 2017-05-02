@@ -111,6 +111,44 @@ body{
 .footer div i{
   width: 25px;
 }
+.mainContainer{
+  padding-top: 54px;
+  display: flex;
+  flex-direction: column;
+}
+.inlineService{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.inlineService img{
+  padding-right: 10px;
+}
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service p{
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+.service ul{
+  padding: 5px 10px;
+  margin-top: 0;
+  list-style: none;
+}
+.imgCentered{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.imgLeft{
+  width: 50%;
+  height: 50%;
+}
+
+
 .bg2{
   display: inline;
   width: 49%;
