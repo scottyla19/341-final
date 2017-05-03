@@ -4,8 +4,8 @@
 ### Design Process:
 1. ~~Determine main topic and site map.~~ 4/26/17
 2. ~~Design wireframe mock ups for both desktop and mobile.~~ 4/28/17
-3. Program code for mobile layout and design.
-4. Look for ways to improve design and development of mobile site.
+3. ~~Program code for mobile layout and design.~~ 5/2/17
+4. ~~Look for ways to improve design and development of mobile site.~~ 5/2/17
 5. Program responsiveness for desktop especially parallax home page.
 6. Improve desktop form and function.
 7. Test on Firefox, Safari, and Chrome for desktop.
@@ -52,9 +52,11 @@ provided below.
 - The first problem that I ran into was getting the menu bar to align correctly. I wanted the menu bars
 icon to be left aligned, the title centered, and the logo right aligned. I ended up using flex box
 with `justify-content: center` and the title and logos with `margin-left: auto`. This provided the look I wanted and formed the basis for my responsive design.
+- Ran into problems with using em units for font-size of my elements. Apparently em are relative for example if a
+container is 2em and an inner div is 3em, the inner div is actually 6em (2*3). Had to go through and readjust my font-sizes.
 
 ### Test and Refine Mobile Layout
-TODO
+- Using Chrome's [device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/) in Chrome dev tools really saved a lot of time when testing my site in mobile and tablet.
 
 ### Develop Desktop Layout
 TODO
