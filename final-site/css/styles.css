@@ -1,6 +1,5 @@
 body{
   margin:0;
-  /*font-size: 2em;*/
 }
 .menuBar{
   /*overflow: hidden;*/
@@ -30,7 +29,13 @@ body{
   margin-left:auto;
   margin-right: 6px;
   margin-top: 5px;
+  width: 1em;
+  height:1em;
 
+}
+#logo img{
+  width: 100%;
+  height: auto;
 }
 .homeContent{
   display: flex;
@@ -122,6 +127,10 @@ body{
   font-size: 2em;
   text-align: center;
 }
+.teamMember{
+  text-align: left;
+      font-size: 1.5em;
+}
 .inlineService{
   display: flex;
   justify-content: flex-start;
@@ -141,21 +150,28 @@ body{
   flex-direction: column;
   justify-content: center;
 }
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .service p{
   padding: 0 10px;
   margin-bottom: 0;
+    font-size: 1.5em;
 }
 .service ul{
   padding: 5px 10px;
   margin-top: 0;
   list-style: none;
 }
-.service div{
+
+/*.service div{
   margin: 5px;
-}
+}*/
 .imgCentered{
-  width: 50%;
-  height: 50%;
+  max-width: 50%;
+  height: auto;
   margin: auto;
 }
 .imgLeft{
@@ -173,6 +189,85 @@ body{
 
 }
 .bg{
+  display: inline;
   max-width: 100%;
   height: auto;
+}
+
+
+@media only screen and (min-device-width: 768px) {
+/*@media (min-width:769px){*/
+    .menuBar{
+      font-size: 3em;
+    }
+    .homeContent p{
+      margin: 0 10%;
+
+    }
+    .service, .service h2, .service img{
+      margin-top: 0;
+      margin-bottom:10px;
+      padding-top: 0;
+      padding-bottom:0;
+      justify-content: flex-start;
+
+    }
+    .imgCentered{
+      width: 25%;
+      height: auto;
+    }
+
+    .footer, .teamMember, .service p{
+      font-size: 1em
+    }
+    .homePageMainContainer{
+      position: relative;
+      display: inline;
+    }
+    #homeMenuBar{
+      position: relative;
+      opacity: 1;
+    }
+    .homePageBG1, .homePageBG2{
+      position: relative;
+      opacity: 0.75;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .bgContent{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin:0 30%;
+      border-radius: 25px;
+      text-align: center;
+      background-color: rgba(120, 144, 156, 0.75);
+      color: white;
+    }
+    .homePageBG1{
+      min-height: 100vh;
+      background-image: url("../img/web-design.jpg");
+    }
+    .homePageBG2{
+      min-height: 400px;
+      background-image: url("../img/macbook-mobile.jpg");
+    }
+    .bg, .bg2 {
+      display: none;
+
+    }
+    .mainContainer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .service{
+      width: 50%;
+    }
+
 }

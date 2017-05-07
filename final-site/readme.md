@@ -6,8 +6,8 @@
 2. ~~Design wireframe mock ups for both desktop and mobile.~~ 4/28/17
 3. ~~Program code for mobile layout and design.~~ 5/2/17
 4. ~~Look for ways to improve design and development of mobile site.~~ 5/2/17
-5. Program responsiveness for desktop especially parallax home page.
-6. Improve desktop form and function.
+5. ~~Program responsiveness for desktop especially parallax home page.~~ 5/4/17
+6. ~~Improve desktop form and function.~~ 5/4/17
 7. Test on Firefox, Safari, and Chrome for desktop.
 8. Test Safari and Chrome on mobile.
 
@@ -59,10 +59,12 @@ container is 2em and an inner div is 3em, the inner div is actually 6em (2*3). H
 - Using Chrome's [device mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/) in Chrome dev tools really saved a lot of time when testing my site in mobile and tablet.
 
 ### Develop Desktop Layout
-TODO
+- Adding parallax was actually not too bad. I was afraid that this would be hard but just using a fake parallax method was
+quite easy. I ended up using a different image for the second background and just hid the others in my media query using `display:none`. This might not be the most efficient method but it accomplished what I needed.
+- I spent a lot of time trying to get the layout to work correctly on the services page as I attempted to rearrange the different services in a 2x2 grid. I ended up changing the class to `justify-content:flex-start` to accomplish this.
 
 ### Test and Refine Desktop Layout
-TODO
+Works on Chrome on the desktop.
 
 ### Test on Various Browsers and Finalize Website
 TODO
