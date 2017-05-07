@@ -66,5 +66,8 @@ quite easy. I ended up using a different image for the second background and jus
 ### Test and Refine Desktop Layout
 Works on Chrome on the desktop.
 
+- Had to fix team member image to be an id so it will only work on the about page as the imgLeft class needed to be
+different on the about page and contact page. 
+
 ### Test on Various Browsers and Finalize Website
 TODO

@@ -180,7 +180,12 @@ body{
   width: 50%;
   height: 50%;
 }
-
+ #teamMemberImg{
+   float: left;
+   margin: 10px;
+   width: 50%;
+   height: 50%;
+ }
 
 .bg2{
   display: inline;
@@ -212,7 +217,7 @@ body{
       justify-content: flex-start;
 
     }
-    .imgCentered{
+    .imgCentered, #teamMemberImg{
       width: 25%;
       height: auto;
     }
