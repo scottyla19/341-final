@@ -67,7 +67,7 @@ quite easy. I ended up using a different image for the second background and jus
 Works on Chrome on the desktop.
 
 - Had to fix team member image to be an id so it will only work on the about page as the imgLeft class needed to be
-different on the about page and contact page. 
+different on the about page and contact page.
 
 ### Test on Various Browsers and Finalize Website
-TODO
+- Firefox has a space between the image and the form. The image does not seem to follow the `height:auto` css.
