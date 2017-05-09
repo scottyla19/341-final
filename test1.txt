@@ -1,6 +1,0 @@
-Name: {Scott LaForest}
-Date: {1/27/17}
-
-This is my first text document for MART 340 - Web Development.
-
-I added a new line to this file in my text editor!!!!
